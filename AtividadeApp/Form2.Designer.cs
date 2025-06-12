@@ -1,0 +1,156 @@
+﻿namespace AtividadeApp
+{
+    partial class frmMenu
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.programasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exemplo1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.carroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dinheiroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.somaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.circunferênciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mediaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.retânguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.programasToolStripMenuItem,
+            this.sairToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // programasToolStripMenuItem
+            // 
+            this.programasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exemplo1ToolStripMenuItem,
+            this.carroToolStripMenuItem,
+            this.dinheiroToolStripMenuItem,
+            this.somaToolStripMenuItem,
+            this.circunferênciaToolStripMenuItem,
+            this.mediaToolStripMenuItem,
+            this.retânguloToolStripMenuItem});
+            this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
+            this.programasToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.programasToolStripMenuItem.Text = "Programas";
+            // 
+            // exemplo1ToolStripMenuItem
+            // 
+            this.exemplo1ToolStripMenuItem.Name = "exemplo1ToolStripMenuItem";
+            this.exemplo1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exemplo1ToolStripMenuItem.Text = "Temperatura";
+            this.exemplo1ToolStripMenuItem.Click += new System.EventHandler(this.exemplo1ToolStripMenuItem_Click);
+            // 
+            // carroToolStripMenuItem
+            // 
+            this.carroToolStripMenuItem.Name = "carroToolStripMenuItem";
+            this.carroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.carroToolStripMenuItem.Text = "Viagem";
+            this.carroToolStripMenuItem.Click += new System.EventHandler(this.carroToolStripMenuItem_Click);
+            // 
+            // dinheiroToolStripMenuItem
+            // 
+            this.dinheiroToolStripMenuItem.Name = "dinheiroToolStripMenuItem";
+            this.dinheiroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dinheiroToolStripMenuItem.Text = "Dinheiro";
+            this.dinheiroToolStripMenuItem.Click += new System.EventHandler(this.dinheiroToolStripMenuItem_Click);
+            // 
+            // somaToolStripMenuItem
+            // 
+            this.somaToolStripMenuItem.Name = "somaToolStripMenuItem";
+            this.somaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.somaToolStripMenuItem.Text = "Soma";
+            this.somaToolStripMenuItem.Click += new System.EventHandler(this.somaToolStripMenuItem_Click);
+            // 
+            // circunferênciaToolStripMenuItem
+            // 
+            this.circunferênciaToolStripMenuItem.Name = "circunferênciaToolStripMenuItem";
+            this.circunferênciaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.circunferênciaToolStripMenuItem.Text = "Circunferência";
+            this.circunferênciaToolStripMenuItem.Click += new System.EventHandler(this.circunferênciaToolStripMenuItem_Click);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // mediaToolStripMenuItem
+            // 
+            this.mediaToolStripMenuItem.Name = "mediaToolStripMenuItem";
+            this.mediaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mediaToolStripMenuItem.Text = "Media";
+            this.mediaToolStripMenuItem.Click += new System.EventHandler(this.mediaToolStripMenuItem_Click);
+            // 
+            // retânguloToolStripMenuItem
+            // 
+            this.retânguloToolStripMenuItem.Name = "retânguloToolStripMenuItem";
+            this.retânguloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.retânguloToolStripMenuItem.Text = "Retângulo";
+            this.retânguloToolStripMenuItem.Click += new System.EventHandler(this.retânguloToolStripMenuItem_Click);
+            // 
+            // frmMenu
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "frmMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Menu";
+            this.Load += new System.EventHandler(this.frmMenu_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem programasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exemplo1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem carroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dinheiroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem somaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem circunferênciaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mediaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem retânguloToolStripMenuItem;
+    }
+}
