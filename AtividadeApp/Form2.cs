@@ -75,5 +75,40 @@ namespace AtividadeApp
             frmRetangulo Retângulo = new frmRetangulo();
             Retângulo.Show();
         }
+
+        private void jogoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmJogo jogo = new frmJogo();
+            jogo.Show();
+        }
+
+        private void livroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmLivro livro = new frmLivro();
+            livro.Show();
+        }
+
+        private void salárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmSalario Salário = new frmSalario();
+            Salário.Show();
+        }
+
+        private void iMCToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmIMC iMC = new frmIMC();
+            iMC.Show();
+        }
+
+        private void cardápioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmCardapio Cardapio = new frmCardapio();
+            Cardapio.Show();
+        }
     }
 }

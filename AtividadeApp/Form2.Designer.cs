@@ -35,9 +35,14 @@
             this.dinheiroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.somaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.circunferênciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mediaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.retânguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.jogoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.livroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iMCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cardápioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +66,12 @@
             this.somaToolStripMenuItem,
             this.circunferênciaToolStripMenuItem,
             this.mediaToolStripMenuItem,
-            this.retânguloToolStripMenuItem});
+            this.retânguloToolStripMenuItem,
+            this.jogoToolStripMenuItem,
+            this.livroToolStripMenuItem,
+            this.salárioToolStripMenuItem,
+            this.iMCToolStripMenuItem,
+            this.cardápioToolStripMenuItem});
             this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             this.programasToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
             this.programasToolStripMenuItem.Text = "Programas";
@@ -101,13 +111,6 @@
             this.circunferênciaToolStripMenuItem.Text = "Circunferência";
             this.circunferênciaToolStripMenuItem.Click += new System.EventHandler(this.circunferênciaToolStripMenuItem_Click);
             // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
-            // 
             // mediaToolStripMenuItem
             // 
             this.mediaToolStripMenuItem.Name = "mediaToolStripMenuItem";
@@ -121,6 +124,48 @@
             this.retânguloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.retânguloToolStripMenuItem.Text = "Retângulo";
             this.retânguloToolStripMenuItem.Click += new System.EventHandler(this.retânguloToolStripMenuItem_Click);
+            // 
+            // jogoToolStripMenuItem
+            // 
+            this.jogoToolStripMenuItem.Name = "jogoToolStripMenuItem";
+            this.jogoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.jogoToolStripMenuItem.Text = "Jogo";
+            this.jogoToolStripMenuItem.Click += new System.EventHandler(this.jogoToolStripMenuItem_Click);
+            // 
+            // livroToolStripMenuItem
+            // 
+            this.livroToolStripMenuItem.Name = "livroToolStripMenuItem";
+            this.livroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.livroToolStripMenuItem.Text = "Livro";
+            this.livroToolStripMenuItem.Click += new System.EventHandler(this.livroToolStripMenuItem_Click);
+            // 
+            // salárioToolStripMenuItem
+            // 
+            this.salárioToolStripMenuItem.Name = "salárioToolStripMenuItem";
+            this.salárioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salárioToolStripMenuItem.Text = "Salário";
+            this.salárioToolStripMenuItem.Click += new System.EventHandler(this.salárioToolStripMenuItem_Click);
+            // 
+            // iMCToolStripMenuItem
+            // 
+            this.iMCToolStripMenuItem.Name = "iMCToolStripMenuItem";
+            this.iMCToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iMCToolStripMenuItem.Text = "IMC";
+            this.iMCToolStripMenuItem.Click += new System.EventHandler(this.iMCToolStripMenuItem_Click);
+            // 
+            // cardápioToolStripMenuItem
+            // 
+            this.cardápioToolStripMenuItem.Name = "cardápioToolStripMenuItem";
+            this.cardápioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cardápioToolStripMenuItem.Text = "Cardápio";
+            this.cardápioToolStripMenuItem.Click += new System.EventHandler(this.cardápioToolStripMenuItem_Click);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // frmMenu
             // 
@@ -152,5 +197,10 @@
         private System.Windows.Forms.ToolStripMenuItem circunferênciaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mediaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem retânguloToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem jogoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem livroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salárioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iMCToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cardápioToolStripMenuItem;
     }
 }
